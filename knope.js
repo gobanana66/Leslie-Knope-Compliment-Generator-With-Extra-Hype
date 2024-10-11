@@ -45,7 +45,7 @@ module.exports = {
       adjective = generateCompliment(numAdjectives, oxfordComma);
     } else if (numAdjectives == "random") {
       // Get a random number of adjectives between 2-5
-      rand = Math.floor(Math.random() * 5) + 1;
+      rand = Math.floor(Math.random() * 10) + 1;
       adjective = generateCompliment(rand, oxfordComma);
     } else {
       // Get just one
